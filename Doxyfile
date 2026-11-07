@@ -3,3 +3,9 @@ PROJECT_NAME           = "Ejemplo Python Flask"
 OUTPUT_DIRECTORY       = "docs"
 RECURSIVE              = YES
 GENERATE_LATEX         = NO
+
+# --- CONFIGURACIÓN EXTRA PARA PYTHON ---
+EXTENSION_MAPPING      = py=Python
+FILE_PATTERNS          = *.py
+INPUT                  = .
+EXTRACT_ALL            = YES
